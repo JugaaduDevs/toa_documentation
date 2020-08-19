@@ -7,4 +7,5 @@ Blog explaining how to deploy ios Apps to the playstore - https://codewithchris.
 Payment Gateways --
 
 https://www.peachpayments.com/#/products/payments
+
 https://www.payfast.co.za/
