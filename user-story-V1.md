@@ -1,6 +1,7 @@
 # User story
 
 ### As a customer of the app
+- Access/Browse the menu without needing to register, but may not have adding to cart functionality without registering first
 - Register with name, email, phone and password <b>POST /user</b>
     - E-mail Verification .
     - Details Validations
@@ -8,7 +9,7 @@
     - Forgot PWD .
 - Update my profile 
     - Add a profile picture. (Optional)
-    - Add an address
+    - Add an address (Should we notify the user if this address falls outside the delivery service zone of the restaurant?)
 - Browse through the menu items
     - Menu items are categorized (eg - starter, main course, desert, drinks ) - Should be customizable by admins.
     - Menu items have name of the item, description , image and hotness level (mild,medium,hot) 
@@ -21,8 +22,8 @@
 - Add 1 or more items to the cart
     - Add Items from the main Menu screen with default spicyness level .
     - Click the Items to enter the instruction screen / layover .
-        - Add instructions per item like no garlic. Some Items would not allow adding instructions .
-        - Select Spicyness level.
+        -- Add instructions per item like no garlic. Some Items would not allow adding instructions .
+        -- Select Spicyness level.
 - View and edit items on the cart
     - View cart
     - Update quantity of a certain item in the cart
@@ -30,6 +31,9 @@
 - View price of the order.
 - Price is updated when any change to cart is made including adding, removing of an item or updating the quantity of an item.
 - Checkout the cart
+    - User should confirm delivery address - Address on the user profile or add a new address
+        -- Should we check and notify the user if this address falls outside the delivery service zone of the restaurant or should we defer this decision making to the admin?
+
     - Order is placed and message is displayed with the time of delivery.
 - Display order history.
 
@@ -38,7 +42,7 @@
     - Profile Picture.
     - Review Restaurant.
     - Re-order from the list.
-        - Item Validation .
+        -- Item Validation .
     
 ### As an admin/worker user:
 
@@ -50,6 +54,7 @@
     - Update the name
     - Upload a new image (Optional)
 - Delete an item from the menu
+- Add an item to the menu under a particular category
 - Mark Not Available .
 - Accept/Reject orders.
 - Update delivery time for an order.
