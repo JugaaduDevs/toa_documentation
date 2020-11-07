@@ -1,0 +1,19 @@
+Costs needed:
+1. AWS cost after free tier (Machine, S3 for images, RDS): $30 per month
+2. Google places API (auto complete): $17 per 1k requests (Free upto $200 per month)
+3. Cloud monitoring (part of AWS)
+4. Apple Store: $100 per year
+5. Google play: $100 per year
+6. Google Routes API 
+	- Distance: $10 per 1k requests (real time) & $5 per 1k requests (not real time)
+	- Map API (Dynamic map): $7 per 1k request
+7. Payment cost by restaurant owner
+
+
+Total Cost (to us):
+ $800 (ZAR 13600) per year (when we move to Amazon RDS)
+
+Cost to the restaurants (for 1st year):
+ - Starts at ZAR 3k
+ - Final price: ZAR 2.5k
+ - Min price: ZAR 2k
